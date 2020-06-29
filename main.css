@@ -1,0 +1,61 @@
+body{
+    font-family: Metropolis,sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.paymentbutton{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 300px;
+    background: linear-gradient(0deg, rgb(60, 46, 187) 0%, rgb(87, 127, 255) 100%);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.text{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+.order{
+    font-weight: bold;
+    font-size: 17px;
+}
+.machineandcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+}
+.card{
+    position: absolute;
+    margin-left: 10px;
+}
+.card img{
+    width: 100%;
+    opacity: 1;
+}
+.cardmachine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity:0;
+}
+.cardmachine img{
+    width: 70%;
+    opacity: 1;
+}
+#tick{
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    top: 15%;
+    opacity: 0;
+}
